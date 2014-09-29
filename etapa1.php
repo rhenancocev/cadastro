@@ -8,15 +8,15 @@
 		<strong>Cadastramento - Etapa 1 de 3</strong></big></big>
 	</p> 
 	
-	<form method="POST" action="etapa2.php"> 
+	<form method="POST" action="etapa2.php">
  		<div align="center">
 			<center> 
-				<p>Nome: <input type="text" name="nome" size="20"></p>
+				<p>Nome: <input type="text" name="nome" size="20" value="<?php echo $_POST['nome']; ?>"></p>
 			</center>
 		</div>
 		<div align="center">
 			<center> 
-				<p>E-mail: <input type="text" name="email" size="20"></p> 
+				<p>E-mail: <input type="text" name="email" size="20" value="<?php echo $_POST ['email']; ?>"></p> 
  			</center>
 		</div>
 		<div align="center">
